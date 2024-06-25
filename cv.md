@@ -5,8 +5,8 @@ Krakow, Poland
 
 ## Contact details
 
-ninamarchenkos@gmail.com 
-+ 38 050 257 17 93 
+Email: ninamarchenkos@gmail.com\ 
+Telegram: @nmarcha\
 [LinkedIn](https://www.linkedin.com/in/nina-marchenko-b04167142/)
 
 
@@ -49,4 +49,4 @@ btn.addEventListener('click',  () => {
 ## Language
 English - Upper Intermediate\
 Ukrainian - Native\
-Polish - Intermediate\
+Polish - Intermediate
