@@ -5,7 +5,7 @@ Krakow, Poland
 
 ## Contact details
 
-Email: ninamarchenkos@gmail.com\ 
+Email: ninamarchenkos@gmail.com\
 Telegram: @nmarcha\
 [LinkedIn](https://www.linkedin.com/in/nina-marchenko-b04167142/)
 
