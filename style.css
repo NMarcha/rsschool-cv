@@ -1,3 +1,119 @@
-body{
-    display: block;
-};
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 42px 51px 0 52px;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}
+main {
+    padding-left: 48px;
+    width: 662px;
+}
+a {
+    color: #2646B8;
+}
+ul{
+    list-style: none;
+    padding-bottom: 16px;
+}
+.right-side {
+    width: 248px;
+}
+h1 {
+    margin-top:32px;
+    color: #303030; 
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+}
+h2 {
+    margin-top: 24px;
+    color: #303030; 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 14px;
+}
+h4 {
+    padding-bottom: 8px;
+    color: #303030; 
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;  
+}
+.contacts {
+    margin: 32px 0 12px 0;
+}
+.contacts ul {
+    color: #303030;  
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; 
+}
+
+.skills-title {
+    color: #2646B8; 
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; 
+    text-transform: uppercase;
+    padding-bottom: 18px;
+}
+
+li{
+    padding-bottom: 12px;
+    color: #303030;  
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500; 
+}
+.aboutme {
+    color: #303030; 
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; 
+}
+.aboutme p{
+    padding-bottom: 8px;
+}
+.education {
+    margin: 36px 0;
+
+}
+.education h3{
+    margin-bottom: 12px;
+    color: #2646B8; 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+    text-transform: uppercase;
+}
+.education-course p {
+    padding: 12px 0 10px 0;
+    list-style: none;
+    color: #303030; 
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%
+}
+.education-course ul { 
+    list-style: none;
+    color: #6A6A6A; 
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 12px;
+    }

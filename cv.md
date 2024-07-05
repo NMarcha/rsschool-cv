@@ -32,10 +32,19 @@ Eager to tackle challenges, I am excited about contributing to projects that pus
 
 ## Code Example
 ```
-btn.addEventListener('click',  () => {
-    box.style.height = box.scrollHeight + 'px';
-    console.log(box.scrollTop)
-})
+function getTotalProgressByRecursion(data) {
+    if (Array.isArray(data)) {
+        let total = 0;
+        for (let i = 0; i < data.length; i++) {
+            total +=data[i].progress;
+        }
+        return [total, data.length]
+    } else {
+        let total = [0,0];
+        for (let subData of Object.values(data)){
+            const subDataArray = getTotalProgressByRecursion(subData);
+           }} 
+           }
 ```
 
 ## Courses
