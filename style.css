@@ -1,3 +1,227 @@
-body{
-    display: block;
-};
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+@font-face {
+    font-family:"Space Mono", monospace;
+    src: url("./accests/fonts/SpaceMono-Regular.ttf");
+  }
+  @font-face {
+    font-family: "JetBrainsNL Mono" ;
+    src: url("./accests/fonts/JetBrainsMonoNL-Regular.ttf");
+  }
+
+/* body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+   */
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 42px 51px 0 52px;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    padding-left: 64px;
+    width: 662px;
+}
+a {
+    color: #2646B8;
+    text-decoration: none;
+}
+ul, li{
+    list-style: none;
+}
+.right-side {
+    width: 248px;
+}
+h1 {
+    margin-top:32px;
+    color: #303030; 
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+}
+h2 {
+    margin-top: 24px;
+    color: #303030; 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+h4 {
+    padding-bottom: 8px;
+    color: #303030; 
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+}
+.contacts {
+    margin: 32px 0 12px 0; 
+}
+.contacts li {
+    margin-bottom: 20px;
+    color: #303030;  
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+.skills-hard, .skills-soft, .skills-language {
+    margin-top: 32px;
+
+}
+.skills-title {
+    color: #2646B8; 
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700; 
+    text-transform: uppercase;
+    padding-bottom: 18px;
+}
+
+.skills-hardlist li, .skills-softlist li, .skiils-languageslist li{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    padding-bottom: 16px;
+    color: #303030;  
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500; 
+    
+}
+.skills-hardlist li img{
+    border-radius: 2px; 
+    padding-right: 4px;
+    width: 16px; 
+    padding-right:4px ;
+}
+.skills-hardlist li p{
+padding-right:4px;
+}
+section {
+    margin-left: 64px;
+    display: flex;
+    flex-direction: column;
+}
+.aboutme {
+    color: #303030; 
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+}
+.aboutme-text p{
+    padding-bottom: 8px;
+    line-height: 150%
+}
+.education {
+    margin: 40px 0;
+
+}
+.education h3{
+    margin-bottom: 12px;
+    color: #2646B8; 
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.education-course-title {
+    padding: 12px 0 10px 0;
+    list-style: none;
+    color: #303030; 
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+}
+.education-course-name { 
+    list-style: none;
+    color: #6A6A6A; 
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    padding-bottom: 12px;
+    }
+.code-example{
+     width: 662px;
+    }
+
+.code-example h3 {
+    padding-bottom: 24px;
+    color: #2646B8;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.code-example-code{
+    border:1px solid #2646B8 ; 
+  
+}
+.code-example-title{
+    background-color:#2646B8;
+    padding: 16px 24px;
+    color: #FFF; 
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+  
+pre {
+margin-top: 24px;
+margin-left: -118px;
+color: #2646B8;  
+font-family: "Space Mono", monospace;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+footer{
+    margin-top:66px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#2646B8;
+    padding: 26px 52px;
+}
+.footer-right {
+    display: flex;
+    flex-direction: row;
+}
+.footer-year {
+    color: #FFF;  
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.footer-github{
+    display: flex;
+    flex-direction: row;
+}
+.footer-github img {
+    padding-left: 24px;
+    width: 16px;
+    height: 16px;
+}
+.footer-github a {
+    text-decoration: none;
+    padding-left: 8px;
+    color: #FFF; 
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    }
+.footer-rschool {
+    width: 100px;
+}
